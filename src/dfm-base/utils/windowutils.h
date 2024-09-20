@@ -27,6 +27,8 @@ public:
     static bool keyAltIsPressed();
 
     static QScreen *cursorScreen();
+    
+    static void closeAllFileManagerWindows();
 };
 
 }
