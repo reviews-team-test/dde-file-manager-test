@@ -9,5 +9,5 @@ concurrency:
 
 jobs:
   api-check:
-    uses: linuxdeepin/.github/.github/workflows/api-check.yml@master
+    uses: review-team-test/dde-file-manager/.github/workflows/api-check.yml@master
     secrets: inherit
