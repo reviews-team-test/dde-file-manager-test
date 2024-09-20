@@ -1,4 +1,4 @@
-name: apiCheck
+name: staticCheck
 on:
   pull_request_target:
     types: [opened, synchronize, reopened]
