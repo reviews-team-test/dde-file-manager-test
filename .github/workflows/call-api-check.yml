@@ -9,5 +9,5 @@ concurrency:
 
 jobs:
   api-check:
-    uses: reviews-team-test/dde-file-manager/.github/workflows/api-check.yml@master
+    uses: reviews-team-test/ci-check-action-api-check/.github/workflows/api-check.yml@master
     secrets: inherit
