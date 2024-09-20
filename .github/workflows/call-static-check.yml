@@ -8,6 +8,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  api-check:
+  static-check:
     uses: reviews-team-test/ci-check-action-static-check/.github/workflows/static-check.yml@static-check
     secrets: inherit
