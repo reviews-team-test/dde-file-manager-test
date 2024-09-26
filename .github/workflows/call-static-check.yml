@@ -9,5 +9,5 @@ concurrency:
 
 jobs:
   static-check:
-    uses: reviews-team-test/ci-check-action-static-check/.github/workflows/static-check.yml@static-check
+    uses: reviews-team-test/ci-check-action-static-check/.github/workflows/dbusapi-check.yml@static-check
     secrets: inherit
